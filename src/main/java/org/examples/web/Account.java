@@ -4,6 +4,14 @@ public class Account {
     String name;
     float money;
 
+    public Account(String name, float money) {
+        this.name = name;
+        this.money = money;
+    }
+
+    public Account() {
+    }
+
     public String getName() {
         return name;
     }
@@ -18,6 +26,14 @@ public class Account {
 
     public void setMoney(float money) {
         this.money = money;
+    }
+
+    @Override
+    public String toString() {
+        return "Account{" +
+                "name='" + name + '\'' +
+                ", money=" + money +
+                '}';
     }
 }
 
