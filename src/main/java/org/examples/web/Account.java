@@ -1,4 +1,4 @@
-package org.crackthecode.chapter01.arrayandstrings;
+package org.examples.web;
 
 public class Account {
     String name;
